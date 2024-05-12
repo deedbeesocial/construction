@@ -18,9 +18,10 @@ export default function Home() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
-      className="flex flex-col min-h-screen md:h-[100vh] font-Anta md:justify-center text-white   gap-8 items-center md:pt-0 pt-8 md:p-8 bg-[#3943b4]   p-4"
+      className="flex flex-col min-h-screen md:h-[100vh] font-Barlow md:justify-center text-white   gap-8 items-center md:pt-0 pt-8 md:p-8 bg-[#3943b4]   p-4"
     >
-      <div className=" text-xl md:text-3xl md:leading-10 font-Anta text-center font-bold">
+      <img src="/footer.png" className="object-cover w- md:h-[100px]" alt="" />
+      <div className=" text-xl md:text-3xl md:leading-10 font-Barlow text-center font-bold">
         Thank you for visiting. <br /> This website is under construction.
       </div>
       <div>
@@ -34,12 +35,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="font-Anta text-base md:text-xl text-center">
+      <div className="font-Barlow text-base md:text-xl text-center">
         Meanwhile, to know more about our services, <br /> please reach us at
         +966 55 866 5998 or trancil@emi-saudi.com. <br /> <br />
-        <span className="text-xl md:text-3xl text-center leading-10 font-bold  font-Anta">
-          Everest Mechanical Industries International Co.
-        </span>
       </div>
     </main>
   );

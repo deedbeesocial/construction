@@ -9,7 +9,7 @@ export default function Home() {
 
   const today = new Date(); // Get the current date
   const currentYear = today.getFullYear(); // Get the current year
-  const juneDate = new Date(currentYear, 5, 1);
+  const juneDate = new Date(currentYear, 6, 1);
   return (
     <main
       style={{

@@ -9,7 +9,7 @@ export default function Home() {
 
   const today = new Date(); // Get the current date
   const currentYear = today.getFullYear(); // Get the current year
-  const juneDate = new Date(currentYear, 6, 1);
+  const augDate = new Date(currentYear, 7, 1);
   return (
     <main
       style={{
@@ -28,10 +28,10 @@ export default function Home() {
         {" "}
         <div className="md:flex hidden ">
           {" "}
-          <Countdown date={juneDate} />
+          <Countdown date={augDate} />
         </div>
         <div className="md:hidden flex">
-          <CountdownTwo date={juneDate} />
+          <CountdownTwo date={augDate} />
         </div>
       </div>
 

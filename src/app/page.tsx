@@ -37,7 +37,10 @@ export default function Home() {
 
       <div className="font-Barlow text-base md:text-xl text-center">
         Meanwhile, to know more about our services, <br /> please reach us at
-        +966 55 866 5998 or trancil@emi-saudi.com. <br /> <br />
+        <br />
+        Raju Vanka (Managing Director) <br /> +966 50 494 7116 or
+        raju@emi-saudi.com
+        <br /> <br />
       </div>
     </main>
   );
